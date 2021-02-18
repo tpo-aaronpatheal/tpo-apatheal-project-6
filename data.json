@@ -1,0 +1,50 @@
+{
+   "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description": "This project displays random famous quotes each time the 'Show Another Quote' button is clicked. For added effect, the page will all auto display a new quote every 7 seconds. Additionally, the background color will randomly change everytime the quote changes. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-1/",
+            "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-1",
+            "images_urls": [""]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description":"This project takes an array of 42 students and displays a maximum of 9 students per page. It should be noted that this app has been designed to work with any number of students, so adding or removing any students from the array will not disrupt the functionality. This app includes pagination buttons which allows the user to display a new set of students. It also includes a search bar which dynamically filters through the students to find a match or display an appropriate error if no matches are found.",
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-2/",
+            "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-2",
+            "images_urls": [""]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "This project created a registration form that utilizes conditional behavior and interactivity along with validating user input and providing helpful error messages when the user enters invalid information in the form fields. The T-Shirt section will only display color options once a design has been selected. The design will also effect the color options available. The Job section includes a text area if 'other' is selcted. As a user signs up for activites, any conflicting activities are automatically disabled. Additionally, there are three different payment options: Credit Card, PayPal, and Bitcoin. The CC number field includes an automatic formatter after the user enters in the cards 13-16 digits.",
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-3/",
+            "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-3",
+            "images_urls": [""]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "In this project, I created a browser-based, word guessing game. Once the user starts a game, a random phrase is selected. The user has to attempt to guess the word. Everytime a user guesses an incorrect letter, they lose a heart. If the user loses all five hears, the game is over. There is a custom 'Game-Over' screen depending on whether the user won or lost. There is a restart button located on each 'Game Over' screen if the user wishes to continue playing. If the game is restarted, then a new random phrase will be selected and displayed.",
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-4/",
+            "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-4",
+            "images_urls": [""]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "For this project, I designed an app for a fictional company called 'Awesome Startup.' I utilized a the Random User Gernerator API to grab the information for 12 employees to display on the page. Each time the page refreshes, 12 new employees will be displayed on the page. Each employee card displays a profile picture, name, email, city, and state. Each time a user selects an employee, a modal window is created which displays much more detailed information on the selected employee. I included formatters to correctly display the employees date of birth and phone number. Lastly, there is a close button which provides the user a way to exit the modal window and select a different employee.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-5/",
+            "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-5",
+            "images_urls": [""]
+        }
+   ]
+
+}
