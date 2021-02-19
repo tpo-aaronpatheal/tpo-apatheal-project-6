@@ -33,19 +33,19 @@ app.get('/project/:id', (req, res, next) => {
 //This middleware will be responsinble for creating the error object. If a request makes it this far with no match, then this will catch the error and trigger
 //a custom message. 
 app.use((req, res, next) => {
-    const err = new Error("Unfortunately we can't find what you are looking for.");
-    err.status = 404;
-    res.render('page-not-found', {err});
-    next(err);
-});
+        const err = new Error("Unfortunately we can't find what you are looking for.");
+        err.status = 404;
+        res.render('page-not-found');
+        next(err);
+    });
 
 //This middleware is responsible for creating a general error message if there is no err.status set. In this case, if the error is not 404.
 app.use((err, req, res, next) => {
      res.locals.error = err;
      if (!err.status) {
-     const err = new Error("Oh no! Looks like something went wrong. Can't technology just be the darndest thing?");
-     err.status = 500;
-     res.render('error', {err});
+        err.message = new Error("Oh no! Looks like something went wrong. Can't technology just be the darndest thing?");
+        err.status = 500;
+        res.render('error', {err});
      }
  });
 
