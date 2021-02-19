@@ -27,6 +27,20 @@ app.get('/project/:id', (req, res, next) => {
     const projectNumber = req.params.id;
 });
 
+//This middleware will be responsinble for creating the error object. If a request makes it this far with no match, then this will catch the error and trigger
+//a custom message. 
+app.use((req, res, next) => {
+    const err = new Error("Unfortunately we can't find what you are looking for.");
+    err.status = 404;
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+     res.locals.error = err;
+     res.status(500);
+     res.render('error');
+ });
+
 //Starts the server and listens on port 3000. The string that logs to the console lets you know what localhost the application is running on. 
 app.listen(3000, () => { 
     console.log('This application is running on localhost: 3000!');
