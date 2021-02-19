@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-1/",
             "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-1",
-            "images_urls": [""]
+            "images_urls": ["/static/images/randomquotecover.png", "/static/images/randomquote1.png", "/static/images/randomquote2.png", "/static/images/randomquote3.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-2/",
             "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-2",
-            "images_urls": [""]
+            "images_urls": ["/static/images/project2cover.png", "/static/images/projecttwo1.png", "/static/images/projecttwo2.png", "/static/images/projecttwo2.png"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-3/",
             "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-3",
-            "images_urls": [""]
+            "images_urls": ["/static/images/projectthreecover.png", "/static/images/projectthree1.png", "/static/images/projectthree2.png", "/static/images/projectthree3.png"]
         },
         {
             "id": 3,
@@ -34,16 +34,16 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-4/",
             "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-4",
-            "images_urls": [""]
+            "images_urls": ["/static/images/projectfourcover.png", "/static/images/projectfour1.png", "/static/images/projectfour2.png", "/static/images/projectfour3.png"]
         },
         {
             "id": 4,
-            "project_name": "Public API Requests",
+            "project_name":"Static API Requests",
             "description": "For this project, I designed an app for a fictional company called 'Awesome Startup.' I utilized a the Random User Gernerator API to grab the information for 12 employees to display on the page. Each time the page refreshes, 12 new employees will be displayed on the page. Each employee card displays a profile picture, name, email, city, and state. Each time a user selects an employee, a modal window is created which displays much more detailed information on the selected employee. I included formatters to correctly display the employees date of birth and phone number. Lastly, there is a close button which provides the user a way to exit the modal window and select a different employee.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-5/",
             "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-5",
-            "images_urls": [""]
+            "images_urls": ["/static/images/projectfivecover.png" , "/static/images/projectfive1.png", "/static/images/projectfive2.png", "/static/images/projectfive3.png"]
         }
    ]
 

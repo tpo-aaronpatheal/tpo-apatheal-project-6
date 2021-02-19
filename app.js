@@ -13,7 +13,7 @@ app.set('view engine', 'pug');
 
 //This route renders the homepage with the locals set to data.projects. 
 app.get('/',(req, res) => {
-    res.locals = projectData;
+    res.locals.data = projectData;
     res.render('index');
 });
 
@@ -24,7 +24,10 @@ app.get('/about', (req, res) => {
 
 //Dynamic projects route that will render a specific version of the Pug project template to show off each project. 
 app.get('/project/:id', (req, res, next) => {
+    res.locals.data = projectData;
     const projectNumber = req.params.id;
+    const project = projectData.projects[projectNumber];
+    res.render(('project'), { project });
 });
 
 //This middleware will be responsinble for creating the error object. If a request makes it this far with no match, then this will catch the error and trigger
@@ -37,6 +40,7 @@ app.use((req, res, next) => {
 
 app.use((err, req, res, next) => {
      res.locals.error = err;
+     if (!err.status) {}
      res.status(500);
      res.render('error');
  });
