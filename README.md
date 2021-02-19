@@ -1,1 +1,3 @@
-# tpo-apatheal-project-6
+Project 6-Static Node.js and Express Site
+
+In this project, I created a portfolio utilizing Node.js and Express to display my previous Treehouse projects. This project includes an update to package.json "scripts" portion which enables npm start to run the app. I have created an error.pug and a page-not-found.pug which extend the layout, block content, and display an error's message, status, and stack properties. Additionally, I added some CSS styling. I changed the background color of the top portion of the main page to a light blue and the text font to Lucida. I added a green background to the top and bottom of the page when the "back" button is displayed. Finally, I added box-shadowing to my profile pircture and each project cell on the main page. 
