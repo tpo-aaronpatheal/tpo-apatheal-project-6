@@ -362,3 +362,29 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/*Exceeds portion below*/
+
+.portfolio-intro {
+  background-color: #ADD8E6;
+}
+
+nav{
+  background-color: #3CB371;
+}
+
+.thumbnail{
+  box-shadow: 10px 20px #888888;
+}
+
+.cell{
+  box-shadow: 10px 20px #888888;
+}
+
+.portfolio-intro h1 {
+  font-family: Lucida;
+}
+
+.portfolio-intro p {
+  font-family: Lucida;
+}
