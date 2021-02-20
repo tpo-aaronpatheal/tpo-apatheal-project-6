@@ -26,8 +26,7 @@ block content
           //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
         each project_tech in project.technologies
           li= project_tech
-          li= project_tech
-          li= project_tech
+          
 
         //- Add the href values to the links below
         a.btn-link(href=`${project.live_link}`) Live Demo
