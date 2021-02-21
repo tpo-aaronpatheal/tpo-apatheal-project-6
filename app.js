@@ -35,19 +35,25 @@ app.get('/project/:id', (req, res, next) => {
 app.use((req, res, next) => {
         const err = new Error("Unfortunately we can't find what you are looking for.");
         err.status = 404;
-        res.render('page-not-found');
+        //res.render('page-not-found');
         next(err);
     });
 
 //This middleware is responsible for creating a general error message if there is no err.status set. In this case, if the error is not 404.
-app.use((err, req, res, next) => {
-     res.locals.error = err;
-     if (!err.status) {
-        err.message = new Error("Oh no! Looks like something went wrong. Can't technology just be the darndest thing?");
-        err.status = 500;
-        res.render('error', {err});
-     }
- });
+    app.use((err, req, res, next) => {
+        if(err.status === 404){
+            console.log('The page seems to be missing')
+            res.locals.error = err;
+            err.status = 404;
+            err.message = new Error("Unfortunately we can't find what you are looking for.");
+            res.render('page-not-found', { err });
+        } else if(!err.status){
+            console.log('Oops something just is not working right');
+            err.message = new Error("Oh no! Looks like something went wrong. Can't technology just be the darndest thing?");
+            err.status = 500;
+            res.render('error', { err });
+        }
+    });
 
 //Starts the server and listens on port 3000. The string that logs to the console lets you know what localhost the application is running on. 
 app.listen(3000, () => { 

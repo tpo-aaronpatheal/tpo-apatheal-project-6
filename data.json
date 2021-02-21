@@ -16,12 +16,12 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-2/",
             "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-2",
-            "images_urls": ["/static/images/project2cover.png", "/static/images/projecttwo1.png", "/static/images/projecttwo2.png", "/static/images/projecttwo2.png"]
+            "images_urls": ["/static/images/project2cover.png", "/static/images/projecttwo1.png", "/static/images/projecttwo2.png", "/static/images/projecttwo3.png"]
         },
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "This project created a registration form that utilizes conditional behavior and interactivity along with validating user input and providing helpful error messages when the user enters invalid information in the form fields. The T-Shirt section will only display color options once a design has been selected. The design will also effect the color options available. The Job section includes a text area if 'other' is selcted. As a user signs up for activites, any conflicting activities are automatically disabled. Additionally, there are three different payment options: Credit Card, PayPal, and Bitcoin. The CC number field includes an automatic formatter after the user enters in the cards 13-16 digits.",
+            "description": "This project created a registration form that utilizes conditional behavior and interactivity along with validating user input and providing helpful error messages when the user enters invalid information in the form fields. The T-Shirt section will only display color options once a design has been selected. The design will also effect the color options available. The Job section includes a text area if 'other' is selected. As a user signs up for activites, any conflicting activities are automatically disabled. Additionally, there are three different payment options: Credit Card, PayPal, and Bitcoin. The CC number field includes an automatic formatter after the user enters in the cards 13-16 digits.",
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-3/",
             "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-3",
@@ -39,7 +39,7 @@
         {
             "id": 4,
             "project_name":"Static API Requests",
-            "description": "For this project, I designed an app for a fictional company called 'Awesome Startup.' I utilized a the Random User Gernerator API to grab the information for 12 employees to display on the page. Each time the page refreshes, 12 new employees will be displayed on the page. Each employee card displays a profile picture, name, email, city, and state. Each time a user selects an employee, a modal window is created which displays much more detailed information on the selected employee. I included formatters to correctly display the employees date of birth and phone number. Lastly, there is a close button which provides the user a way to exit the modal window and select a different employee.",
+            "description": "For this project, I designed an app for a fictional company called 'Awesome Startup.' I utilized a Random User Generator API to grab the information for 12 employees to display on the page. Each time the page refreshes, 12 new employees will be displayed on the page. Each employee card displays a profile picture, name, email, city, and state. Each time a user selects an employee, a modal window is created which displays much more detailed information on the selected employee. I included formatters to correctly display the employees date of birth and phone number. Lastly, there is a close button which provides the user a way to exit the modal window and select a different employee.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tpo-apatheal.github.io/tpo-apatheal-project-5/",
             "github_link": "https://github.com/tpo-apatheal/tpo-apatheal-project-5",
